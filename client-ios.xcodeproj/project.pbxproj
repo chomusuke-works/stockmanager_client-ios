@@ -14,7 +14,7 @@
 /* Begin PBXFileReference section */
 		755EF8932D73241800BB2F8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		755EF8942D73241800BB2F8F /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
-		755EF8A42D735D8800BB2F8F /* client-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "client-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		755EF8A42D735D8800BB2F8F /* client-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "client-ios.app"; path = "/Users/artur/Documents/prog/Projects/stock-manager/client-ios/build/Debug-iphoneos/client-ios.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -73,7 +73,6 @@
 		7520C7FC2D6CA3EF00BAFDD8 = {
 			isa = PBXGroup;
 			children = (
-				755EF8A42D735D8800BB2F8F /* client-ios.app */,
 				755EF8AE2D7380A100BB2F8F /* Model */,
 				755EF8B02D7380A100BB2F8F /* Preview Content */,
 				755EF8B32D7380A100BB2F8F /* Views */,

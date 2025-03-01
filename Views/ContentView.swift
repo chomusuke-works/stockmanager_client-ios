@@ -31,10 +31,14 @@ struct ContentView: View {
 				if (isThrown) {
 					SystemImageButton(color: .orange, systemImage: "trash") {
 						addSampleTransaction(quantity: itemCount, .thrown)
+						isThrown = false  // Reset the toggle
+						// This is done because throwing away inventory is a punctual action
+						itemCount = 0
 					}
 				} else {
 					SystemImageButton(color: .blue, systemImage: "cart") {
 						addSampleTransaction(quantity: itemCount, .sold)
+						itemCount = 0
 					}
 				}
 			}
