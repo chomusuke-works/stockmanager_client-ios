@@ -6,14 +6,55 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		755EF89A2D73241800BB2F8F /* client_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755EF8942D73241800BB2F8F /* client_iosApp.swift */; };
+		755EF8A12D73241800BB2F8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 755EF8932D73241800BB2F8F /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		755EF8932D73241800BB2F8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		755EF8942D73241800BB2F8F /* client_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = client_iosApp.swift; sourceTree = "<group>"; };
 		755EF8A42D735D8800BB2F8F /* client-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "client-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		755EF8BA2D7380A100BB2F8F /* Exceptions for "Preview Content" folder in "client-ios" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Preview Assets.xcassets",
+			);
+			target = 7520C8042D6CA3EF00BAFDD8 /* client-ios */;
+		};
+		755EF8BB2D7380A100BB2F8F /* Exceptions for "Views" folder in "client-ios" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ContentView.swift,
+				SystemImageButton.swift,
+			);
+			target = 7520C8042D6CA3EF00BAFDD8 /* client-ios */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		755EF8992D73241800BB2F8F /* client-ios */ = {
+		755EF8AE2D7380A100BB2F8F /* Model */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "client-ios";
+			path = Model;
+			sourceTree = "<group>";
+		};
+		755EF8B02D7380A100BB2F8F /* Preview Content */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				755EF8BA2D7380A100BB2F8F /* Exceptions for "Preview Content" folder in "client-ios" target */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		755EF8B32D7380A100BB2F8F /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				755EF8BB2D7380A100BB2F8F /* Exceptions for "Views" folder in "client-ios" target */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,8 +73,12 @@
 		7520C7FC2D6CA3EF00BAFDD8 = {
 			isa = PBXGroup;
 			children = (
-				755EF8992D73241800BB2F8F /* client-ios */,
 				755EF8A42D735D8800BB2F8F /* client-ios.app */,
+				755EF8AE2D7380A100BB2F8F /* Model */,
+				755EF8B02D7380A100BB2F8F /* Preview Content */,
+				755EF8B32D7380A100BB2F8F /* Views */,
+				755EF8932D73241800BB2F8F /* Assets.xcassets */,
+				755EF8942D73241800BB2F8F /* client_iosApp.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,7 +98,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				755EF8992D73241800BB2F8F /* client-ios */,
+				755EF8AE2D7380A100BB2F8F /* Model */,
 			);
 			name = "client-ios";
 			packageProductDependencies = (
@@ -101,6 +146,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				755EF8A12D73241800BB2F8F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				755EF89A2D73241800BB2F8F /* client_iosApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,7 +290,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"client-ios/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
 				DEVELOPMENT_TEAM = MMD4KGB9S4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -275,7 +322,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"client-ios/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Preview Content\"";
 				DEVELOPMENT_TEAM = MMD4KGB9S4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
